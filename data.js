@@ -29,6 +29,9 @@ const reports = {
     data: [
       ["John Doe", 30, "john@example.com", true],
       ["Jane Smith", 25, "jane@example.com", false],
+      ["Janel Akimov", 16, "janelakimov@gmail.com.com", false],
+      ["Samat Super", 19, "supersamat2004@gmail.com.com", true],
+      ["Nikita Chaika", 22, "nikita@example.com", false],
     ],
   },
 
@@ -39,8 +42,11 @@ const reports = {
       { id: "category", type: "string", caption: "Category", align: "center" },
     ],
     data: [
-      ["Widget A", 19.99, "Electronics"],
-      ["Widget B", 24.99, "Home"],
+      ["LG", 19.99, "Electronics"],
+      ["Xiaomi", 24.99, "Home"],
+      ["BMW", 24.99, "Car"],
+      ["Earrings", 24.99, "Accessories"],
+      ["Sweatshirt", 24.99, "Cloth"],
     ],
   },
 };
